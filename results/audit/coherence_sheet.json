@@ -1,0 +1,202 @@
+[
+  {
+    "position_id": "pos01",
+    "document_id": "tt08-2021",
+    "location": "p3",
+    "page": 3,
+    "offset": 1008,
+    "source_context": "trình đào tạo do cơ sở giáo dục nước ngoài cấp bằng bao gồm cả các chương trình liên kết đào tạo được áp dụng quy chế này hoặc quy định của cơ sở đào tạo cấp bằ",
+    "strategy_A": {
+      "chunk_id": "tt08-2021:p3:fix02",
+      "article": "Điều 1",
+      "length": 500,
+      "text": "vừa làm vừa học. Các chương trình đào tạo do cơ sở giáo dục nước ngoài cấp bằng bao gồm cả các chương trình liên kết đào tạo được áp dụng quy chế này hoặc quy định của cơ sở đào tạo cấp bằng theo thỏa thuận liên kết, hợp tác giữa các bên nhưng không trái với những quy định của quy chế này.\n3. Quy chế này là căn cứ để giám đốc đại học, học viện, hiệu trưởng trường đại học; trường của cơ quan nhà nước, tổ chức chính trị, tổ chức chính trị - xã hội (sau đây gọi hiệu trưởng) cơ sở đào tạo xây dựng v"
+    },
+    "strategy_B": {
+      "chunk_id": "tt08-2021:p3:st02",
+      "article": "Điều 1",
+      "length": 587,
+      "text": "2. Quy chế này áp dụng đối với các đại học, học viện, trường đại học; trường của cơ quan nhà nước, tổ chức chính trị, tổ chức chính trị - xã hội có nhiệm vụ đào tạo trình độ đại học (sau đây gọi là cơ sở đào tạo), các tổ chức, cá nhân liên quan trong đào tạo theo hình thức chính quy và hình thức vừa làm vừa học. Các chương trình đào tạo do cơ sở giáo dục nước ngoài cấp bằng bao gồm cả các chương trình liên kết đào tạo được áp dụng quy chế này hoặc quy định của cơ sở đào tạo cấp bằng theo thỏa thuận liên kết, hợp tác giữa các bên nhưng không trái với những quy định của quy chế này."
+    }
+  },
+  {
+    "position_id": "pos02",
+    "document_id": "tt08-2021",
+    "location": "p9",
+    "page": 9,
+    "offset": 1007,
+    "source_context": "dẫn sinh viên làm thí nghiệm, thực hành, thực tập, đồ án, khoá luận và thực hiện các hoạt động học tập khác;\nb) Việc lấy ý kiến phản hồi của người học về các đi",
+    "strategy_A": {
+      "chunk_id": "tt08-2021:p9:fix02",
+      "article": "Điều 8",
+      "length": 500,
+      "text": "iảng dạy, giảng viên hướng dẫn sinh viên làm thí nghiệm, thực hành, thực tập, đồ án, khoá luận và thực hiện các hoạt động học tập khác;\nb) Việc lấy ý kiến phản hồi của người học về các điều kiện bảo đảm chất lượng, hiệu quả học tập đối với tất cả các lớp học của cơ sở đào tạo và việc công khai ý kiến phản hồi của người học, bao gồm nội dung, mức độ, hình thức công khai;\nc) Trách nhiệm và quyền hạn của giảng viên được phân công giảng dạy hoặc hướng dẫn sinh viên; trách nhiệm của các đơn vị chuyên"
+    },
+    "strategy_B": {
+      "chunk_id": "tt08-2021:p9:st01",
+      "article": "Điều 8",
+      "length": 777,
+      "text": "b) Đối với đào tạo theo hình thức chính quy và vừa làm vừa học, tối đa 30% tổng khối lượng của chương trình đào tạo được thực hiện bằng lớp học trực tuyến. Trong trường hợp thiên tai, dịch bệnh phức tạp và các trường hợp bất khả kháng khác, cơ sở đào tạo thực hiện theo hướng dẫn của Bộ Giáo dục và Đào tạo.\n3. Quy chế của cơ sở đào tạo quy định:\na) Việc phân công giảng viên cho các lớp học, giảng viên giảng dạy, giảng viên hướng dẫn sinh viên làm thí nghiệm, thực hành, thực tập, đồ án, khoá luận và thực hiện các hoạt động học tập khác;\nb) Việc lấy ý kiến phản hồi của người học về các điều kiện bảo đảm chất lượng, hiệu quả học tập đối với tất cả các lớp học của cơ sở đào tạo và việc công khai ý kiến phản hồi của người học, bao gồm nội dung, mức độ, hình thức công khai;"
+    }
+  },
+  {
+    "position_id": "pos03",
+    "document_id": "tt08-2021",
+    "location": "p14",
+    "page": 14,
+    "offset": 840,
+    "source_context": "thứ hai và từ 1,4 đối với năm thứ ba trở đi;\nb) Số tín chỉ nợ đọng từ đầu khóa không vượt quá 16.\n2. Sinh viên bị buộc thôi học trong các trường hợp sau:\na) Điể",
+    "strategy_A": {
+      "chunk_id": "tt08-2021:p14:fix01",
+      "article": "Điều 11",
+      "length": 500,
+      "text": "nh viên bị buộc thôi học.\nĐiều 12. Xử lý kết quả học tập theo niên chế\n1. Cuối mỗi năm học, sinh viên được đánh giá đạt tiến độ học tập bình thường và được học tiếp lên năm học sau nếu đạt cả hai điều kiện sau:\na) Điểm trung bình năm học đạt từ 1,0 trở lên đối với năm học thứ nhất, từ 1,2 trở lên đối với năm thứ hai và từ 1,4 đối với năm thứ ba trở đi;\nb) Số tín chỉ nợ đọng từ đầu khóa không vượt quá 16.\n2. Sinh viên bị buộc thôi học trong các trường hợp sau:\na) Điểm trung bình năm học đạt dưới "
+    },
+    "strategy_B": {
+      "chunk_id": "tt08-2021:p14:st01",
+      "article": "Điều 12",
+      "length": 683,
+      "text": "Điều 12. Xử lý kết quả học tập theo niên chế\n1. Cuối mỗi năm học, sinh viên được đánh giá đạt tiến độ học tập bình thường và được học tiếp lên năm học sau nếu đạt cả hai điều kiện sau:\na) Điểm trung bình năm học đạt từ 1,0 trở lên đối với năm học thứ nhất, từ 1,2 trở lên đối với năm thứ hai và từ 1,4 đối với năm thứ ba trở đi;\nb) Số tín chỉ nợ đọng từ đầu khóa không vượt quá 16.\n2. Sinh viên bị buộc thôi học trong các trường hợp sau:\na) Điểm trung bình năm học đạt dưới 0,8;\nb) Điểm trung bình tích lũy đạt dưới 1,2 sau 2 năm học, dưới 1,4 sau 3 năm học và dưới 1,6 từ sau 4 năm học trở đi;\nc) Thời gian học tập vượt quá giới hạn theo quy định tại khoản 5 Điều 2 của Quy chế này."
+    }
+  },
+  {
+    "position_id": "pos04",
+    "document_id": "tt08-2021",
+    "location": "p20",
+    "page": 20,
+    "offset": 955,
+    "source_context": " thứ nhất và buộc thôi học đối với trường hợp vi phạm lần thứ hai.\n3. Người học sử dụng hồ sơ, văn bằng, chứng chỉ giả làm điều kiện trúng tuyển hoặc điều kiện ",
+    "strategy_A": {
+      "chunk_id": "tt08-2021:p20:fix02",
+      "article": "Điều 20",
+      "length": 500,
+      "text": "c đối với trường hợp vi phạm lần thứ hai.\n3. Người học sử dụng hồ sơ, văn bằng, chứng chỉ giả làm điều kiện trúng tuyển hoặc điều kiện tốt nghiệp sẽ bị buộc thôi học; văn bằng tốt nghiệp nếu đã được cấp sẽ bị thu hồi, huỷ bỏ.\nChương V\nTỔ CHỨC THỰC HIỆN\nĐiều 21. Xây dựng và thực hiện quy chế của cơ sở đào tạo\n1. Căn cứ Quy chế này và các quy định hiện hành khác có liên quan, hiệu trưởng cơ sở đào tạo có trách nhiệm:\na) Chỉ đạo xây dựng, ban hành và tổ chức thực hiện quy chế đào tạo của cơ sở đào "
+    },
+    "strategy_B": {
+      "chunk_id": "tt08-2021:p20:st01",
+      "article": "Điều 20",
+      "length": 689,
+      "text": "Điều 20. Xử lý vi phạm đối với sinh viên\n1. Sinh viên có gian lận trong thi, kiểm tra, đánh giá kết quả học tập sẽ bị xử lý kỷ luật đối với từng học phần đã vi phạm theo các quy định của Quy chế thi tốt nghiệp Trung học phổ thông hiện hành do Bộ Giáo dục và Đào tạo ban hành, trừ trường hợp quy định tại khoản 2 Điều này.\n2. Sinh viên thi hộ hoặc nhờ người thi hộ đều bị kỷ luật ở mức đình chỉ học tập 01 năm đối với trường hợp vi phạm lần thứ nhất và buộc thôi học đối với trường hợp vi phạm lần thứ hai.\n3. Người học sử dụng hồ sơ, văn bằng, chứng chỉ giả làm điều kiện trúng tuyển hoặc điều kiện tốt nghiệp sẽ bị buộc thôi học; văn bằng tốt nghiệp nếu đã được cấp sẽ bị thu hồi, huỷ bỏ."
+    }
+  },
+  {
+    "position_id": "pos05",
+    "document_id": "tt10-2016",
+    "location": "u03",
+    "page": 3,
+    "offset": 761,
+    "source_context": "g quá trình học tập và rèn luyện tại cơ sở giáo dục và đào tạo.\nĐiều 3. Công tác sinh viên\n1. Công tác sinh viên là một trong những công tác trọng tâm của cơ sở",
+    "strategy_A": {
+      "chunk_id": "tt10-2016:u03:fix01",
+      "article": "Điều 2",
+      "length": 500,
+      "text": "rình đào tạo trình độ đại học hệ chính quy tại các cơ sở giáo dục đại học.\n2. Sinh viên là trung tâm của các hoạt động giáo dục và đào tạo trong cơ sở giáo dục đại học, được bảo đảm điều kiện thực hiện đầy đủ nhiệm vụ và quyền trong quá trình học tập và rèn luyện tại cơ sở giáo dục và đào tạo.\nĐiều 3. Công tác sinh viên\n1. Công tác sinh viên là một trong những công tác trọng tâm của cơ sở giáo dục đại học, bao gồm tổng thể các hoạt động giáo dục, tuyên truyền; quản lý; hỗ trợ và dịch vụ đối với "
+    },
+    "strategy_B": {
+      "chunk_id": "tt10-2016:u03:st02",
+      "article": "Điều 3",
+      "length": 548,
+      "text": "Điều 3. Công tác sinh viên\n1. Công tác sinh viên là một trong những công tác trọng tâm của cơ sở giáo dục đại học, bao gồm tổng thể các hoạt động giáo dục, tuyên truyền; quản lý; hỗ trợ và dịch vụ đối với sinh viên nhằm đảm bảo các mục tiêu của giáo dục đại học.\n2. Công tác sinh viên phải thực hiện đúng chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước và các quy định của Bộ Giáo dục và Đào tạo.\n3. Công tác sinh viên phải bảo đảm dân chủ, khách quan, công bằng, công khai, minh bạch trong các vấn đề có liên quan đến sinh viên."
+    }
+  },
+  {
+    "position_id": "pos06",
+    "document_id": "tt10-2016",
+    "location": "u09",
+    "page": 9,
+    "offset": 775,
+    "source_context": " tập và rèn luyện của sinh viên, các lớp sinh viên tiến hành lập danh sách kèm theo bản thành tích cá nhân và tập thể lớp, có xác nhận của chủ nhiệm lớp, đề ngh",
+    "strategy_A": {
+      "chunk_id": "tt10-2016:u09:fix01",
+      "article": "Điều 8",
+      "length": 500,
+      "text": "h tự, thủ tục xét khen thưởng\n1. Vào đầu năm học, cơ sở giáo dục đại học tổ chức cho sinh viên, các lớp sinh viên đăng ký danh hiệu thi đua cá nhân và tập thể lớp sinh viên.\n2. Thủ tục xét khen thưởng:\na) Căn cứ vào thành tích đạt được trong học tập và rèn luyện của sinh viên, các lớp sinh viên tiến hành lập danh sách kèm theo bản thành tích cá nhân và tập thể lớp, có xác nhận của chủ nhiệm lớp, đề nghị khoa hoặc đơn vị phụ trách công tác sinh viên xem xét;\nb) Khoa hoặc đơn vị phụ trách công tác"
+    },
+    "strategy_B": {
+      "chunk_id": "tt10-2016:u09:st01",
+      "article": "Điều 8",
+      "length": 630,
+      "text": "Điều 8. Trình tự, thủ tục xét khen thưởng\n1. Vào đầu năm học, cơ sở giáo dục đại học tổ chức cho sinh viên, các lớp sinh viên đăng ký danh hiệu thi đua cá nhân và tập thể lớp sinh viên.\n2. Thủ tục xét khen thưởng:\na) Căn cứ vào thành tích đạt được trong học tập và rèn luyện của sinh viên, các lớp sinh viên tiến hành lập danh sách kèm theo bản thành tích cá nhân và tập thể lớp, có xác nhận của chủ nhiệm lớp, đề nghị khoa hoặc đơn vị phụ trách công tác sinh viên xem xét;\nb) Khoa hoặc đơn vị phụ trách công tác sinh viên tổ chức họp, xét và đề nghị Hội đồng khen thưởng và kỷ luật sinh viên của cơ sở giáo dục đại học xét duyệt;"
+    }
+  },
+  {
+    "position_id": "pos07",
+    "document_id": "tt10-2016",
+    "location": "u14",
+    "page": 14,
+    "offset": 769,
+    "source_context": " nhận thức cho sinh viên về ăn uống đảm bảo dinh dưỡng, vệ sinh an toàn thực phẩm, sinh hoạt điều độ, không lạm dụng rượu, bia, sử dụng chất kích thích, gây ngh",
+    "strategy_A": {
+      "chunk_id": "tt10-2016:u14:fix01",
+      "article": "Điều 14",
+      "length": 500,
+      "text": "làm,...\n5. Giáo dục thể chất\na) Giáo dục, hướng dẫn sinh viên về kỹ thuật, phương pháp luyện tập và tổ chức cho sinh viên tham gia các hoạt động thể dục, thể thao theo quy định của Bộ Giáo dục và Đào tạo;\nb) Phổ biến, tuyên truyền nâng cao nhận thức cho sinh viên về ăn uống đảm bảo dinh dưỡng, vệ sinh an toàn thực phẩm, sinh hoạt điều độ, không lạm dụng rượu, bia, sử dụng chất kích thích, gây nghiện; kiến thức và kỹ năng chăm sóc sức khỏe, phòng chống dịch, bệnh, tai nạn thương tích,…; Tổ chức v"
+    },
+    "strategy_B": {
+      "chunk_id": "tt10-2016:u14:st01",
+      "article": "Điều 14",
+      "length": 548,
+      "text": "b) Phổ biến, tuyên truyền nâng cao nhận thức cho sinh viên về ăn uống đảm bảo dinh dưỡng, vệ sinh an toàn thực phẩm, sinh hoạt điều độ, không lạm dụng rượu, bia, sử dụng chất kích thích, gây nghiện; kiến thức và kỹ năng chăm sóc sức khỏe, phòng chống dịch, bệnh, tai nạn thương tích,…; Tổ chức và triển khai hoạt động của Trạm Y tế trong cơ sở giáo dục đại học theo quy định của Bộ Giáo dục và Đào tạo.\n6. Giáo dục thẩm mỹ\na) Giáo dục kiến thức, kỹ năng để sinh viên biết yêu và cảm thụ cái đẹp trong tự nhiên, cuộc sống xã hội và trong nghệ thuật."
+    }
+  },
+  {
+    "position_id": "pos08",
+    "document_id": "tt10-2016",
+    "location": "u20",
+    "page": 20,
+    "offset": 779,
+    "source_context": "ờng.\n2. Chủ động phối hợp chặt chẽ với các tổ chức đoàn thể, gia đình sinh viên, các cơ quan có liên quan trên địa bàn để tổ chức thực hiện tốt công tác sinh vi",
+    "strategy_A": {
+      "chunk_id": "tt10-2016:u20:fix01",
+      "article": "Điều 22",
+      "length": 500,
+      "text": "Ổ CHỨC THỰC HIỆN\nĐiều 22. Trách nhiệm của cơ sở giáo dục đại học\n1. Căn cứ nội dung của Quy chế này xây dựng quy chế, quy định cụ thể về công tác sinh viên phù hợp với chức năng, nhiệm vụ và thực tiễn công tác tổ chức giáo dục và đào tạo của nhà trường.\n2. Chủ động phối hợp chặt chẽ với các tổ chức đoàn thể, gia đình sinh viên, các cơ quan có liên quan trên địa bàn để tổ chức thực hiện tốt công tác sinh viên.\n3. Tổ chức tổng kết, đánh giá công tác sinh viên, báo cáo Bộ Giáo dục và Đào tạo vào cu"
+    },
+    "strategy_B": {
+      "chunk_id": "tt10-2016:u20:st01",
+      "article": "Điều 22",
+      "length": 677,
+      "text": "Chương VI\nTỔ CHỨC THỰC HIỆN\nĐiều 22. Trách nhiệm của cơ sở giáo dục đại học\n1. Căn cứ nội dung của Quy chế này xây dựng quy chế, quy định cụ thể về công tác sinh viên phù hợp với chức năng, nhiệm vụ và thực tiễn công tác tổ chức giáo dục và đào tạo của nhà trường.\n2. Chủ động phối hợp chặt chẽ với các tổ chức đoàn thể, gia đình sinh viên, các cơ quan có liên quan trên địa bàn để tổ chức thực hiện tốt công tác sinh viên.\n3. Tổ chức tổng kết, đánh giá công tác sinh viên, báo cáo Bộ Giáo dục và Đào tạo vào cuối năm học; gửi báo cáo đột xuất về Bộ Giáo dục và Đào tạo và các cơ quan quản lý trực tiếp về những vụ việc phức tạp, nghiêm trọng xảy ra có liên quan đến sinh viên."
+    }
+  },
+  {
+    "position_id": "pos09",
+    "document_id": "tt16-2015",
+    "location": "u03",
+    "page": 3,
+    "offset": 786,
+    "source_context": "á ý thức, thái độ của người học theo các mức điểm đạt được trên các mặt:\na) Ý thức tham gia học tập;\nb) Ý thức chấp hành nội quy, quy chế, quy định trong nhà tr",
+    "strategy_A": {
+      "chunk_id": "tt16-2015:u03:fix01",
+      "article": "Điều 2",
+      "length": 500,
+      "text": "ánh giá.\n3. Phối hợp đồng bộ, chặt chẽ các bộ phận, các đơn vị có liên quan trong nhà trường tham gia công tác đánh giá kết quả rèn luyện của người học.\nĐiều 3. Nội dung đánh giá và thang điểm\n1. Xem xét, đánh giá kết quả rèn luyện của người học là đánh giá ý thức, thái độ của người học theo các mức điểm đạt được trên các mặt:\na) Ý thức tham gia học tập;\nb) Ý thức chấp hành nội quy, quy chế, quy định trong nhà trường;\nc) Ý thức tham gia các hoạt động chính trị, xã hội, văn hóa, văn nghệ, thể tha"
+    },
+    "strategy_B": {
+      "chunk_id": "tt16-2015:u03:st02",
+      "article": "Điều 3",
+      "length": 666,
+      "text": "Điều 3. Nội dung đánh giá và thang điểm\n1. Xem xét, đánh giá kết quả rèn luyện của người học là đánh giá ý thức, thái độ của người học theo các mức điểm đạt được trên các mặt:\na) Ý thức tham gia học tập;\nb) Ý thức chấp hành nội quy, quy chế, quy định trong nhà trường;\nc) Ý thức tham gia các hoạt động chính trị, xã hội, văn hóa, văn nghệ, thể thao, phòng chống tội phạm và các tệ nạn xã hội;\nd) Ý thức công dân trong quan hệ cộng đồng;\nđ) Ý thức và kết quả tham gia công tác cán bộ lớp, các đoàn thể, tổ chức khác trong cơ sở giáo dục đại học hoặc người học đạt được thành tích đặc biệt trong học tập, rèn luyện.\n2. Điểm rèn luyện được đánh giá bằng thang điểm 100."
+    }
+  },
+  {
+    "position_id": "pos10",
+    "document_id": "tt16-2015",
+    "location": "u09",
+    "page": 9,
+    "offset": 1386,
+    "source_context": "ị xếp loại rèn luyện yếu, kém trong hai học kỳ liên tiếp thì phải tạm ngừng học ít nhất một học kỳ ở học kỳ tiếp theo và nếu bị xếp loại rèn luyện yếu, kém hai ",
+    "strategy_A": {
+      "chunk_id": "tt16-2015:u09:fix02",
+      "article": "Điều 14",
+      "length": 500,
+      "text": "ược lưu trong hồ sơ quản lý người học của cơ sở giáo dục đại học, làm căn cứ để xét thi tốt nghiệp, làm luận văn hoặc khóa luận tốt nghiệp.\n3. Kết quả đánh giá rèn luyện toàn khóa học được ghi chung vào bảng điểm kết quả học tập và lưu trong hồ sơ của người học khi tốt nghiệp ra trường.\n4. Người học có kết quả rèn luyện xuất sắc được cơ sở giáo dục đại học xem xét biểu dương, khen thưởng.\n5. Người học bị xếp loại rèn luyện yếu, kém trong hai học kỳ liên tiếp thì phải tạm ngừng học ít nhất một họ"
+    },
+    "strategy_B": {
+      "chunk_id": "tt16-2015:u09:st02",
+      "article": "Điều 14",
+      "length": 331,
+      "text": "4. Người học có kết quả rèn luyện xuất sắc được cơ sở giáo dục đại học xem xét biểu dương, khen thưởng.\n5. Người học bị xếp loại rèn luyện yếu, kém trong hai học kỳ liên tiếp thì phải tạm ngừng học ít nhất một học kỳ ở học kỳ tiếp theo và nếu bị xếp loại rèn luyện yếu, kém hai học kỳ liên tiếp lần thứ hai thì sẽ bị buộc thôi học."
+    }
+  }
+]

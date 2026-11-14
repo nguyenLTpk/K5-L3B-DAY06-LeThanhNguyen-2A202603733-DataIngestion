@@ -1,0 +1,42 @@
+{
+  "method": "Mẫu 10 vị trí sinh tự động theo quy tắc cố định trong src/audit.py (10 đơn vị nội dung cách đều nhau, vị trí = ký tự giữa đơn vị), chọn trước khi xem điểm. Mỗi vị trí đọc toàn văn chunk chứa nó trong results/audit/coherence_sheet.json và chấm 0-2 theo GUIDE.",
+  "scale": {
+    "0": "ý tại vị trí bị cắt hoặc thiếu chủ thể/câu dẫn đến mức không hiểu được",
+    "1": "ý tại vị trí hiểu được một phần: chunk có mảnh bị cắt cụt (giữa từ/câu) hoặc thiếu câu dẫn/tiêu đề làm thiếu ngữ cảnh",
+    "2": "tự hiểu được và giữ trọn ý chứa vị trí; không có mảnh cắt gây hiểu sai"
+  },
+  "annotator": "Claude (trợ lý AI) chấm theo thang trên, kèm lý do; học viên rà soát lại. Không chấm mù: người chấm biết chunk thuộc chiến lược nào, nên có nguy cơ thiên lệch.",
+  "strategy_C_note": "C dùng đúng các chunk của B (chung index), nên nhãn C = nhãn B. Đây không phải mẫu độc lập.",
+  "labels": [
+    {"position_id": "pos01", "location": "tt08-2021:p3",
+     "A": {"chunk_id": "tt08-2021:p3:fix02", "score": 1, "reason": "Mở đầu bằng đuôi câu khoản 2 ('vừa làm vừa học. Các chương trình…'); khoản 3 bị cắt giữa từ ('xây dựng v')."},
+     "B": {"chunk_id": "tt08-2021:p3:st02", "score": 2, "reason": "Trọn khoản 2 Điều 1 (phạm vi áp dụng), câu có chủ ngữ 'Quy chế này áp dụng…', tự hiểu được."}},
+    {"position_id": "pos02", "location": "tt08-2021:p9",
+     "A": {"chunk_id": "tt08-2021:p9:fix02", "score": 0, "reason": "Danh sách điểm a/b/c chỉ là cụm danh từ ('Việc lấy ý kiến phản hồi…') nhưng mất câu dẫn '3. Quy chế của cơ sở đào tạo quy định:', nên không biết ai phải làm gì. Hai đầu cắt giữa từ ('iảng dạy', 'đơn vị chuyên')."},
+     "B": {"chunk_id": "tt08-2021:p9:st01", "score": 2, "reason": "Có câu dẫn 'Quy chế của cơ sở đào tạo quy định:' cùng các điểm a), b) trọn câu. Điểm b) đầu chunk (30% trực tuyến) tự đủ nghĩa."}},
+    {"position_id": "pos03", "location": "tt08-2021:p14",
+     "A": {"chunk_id": "tt08-2021:p14:fix01", "score": 1, "reason": "Khoản 1 Điều 12 trọn vẹn, nhưng đuôi chunk dừng ở 'a) Điểm trung bình năm học đạt dưới ' (mất ngưỡng 0,8), dễ gây hiểu sai. Đầu chunk là mảnh 'nh viên bị buộc thôi học.'"},
+     "B": {"chunk_id": "tt08-2021:p14:st01", "score": 2, "reason": "Trọn Điều 12 khoản 1-2 kèm tiêu đề Điều."}},
+    {"position_id": "pos04", "location": "tt08-2021:p20",
+     "A": {"chunk_id": "tt08-2021:p20:fix02", "score": 1, "reason": "Khoản 3 (hồ sơ giả -> buộc thôi học) trọn câu, nhưng chunk mở đầu bằng mảnh mất chủ thể ('c đối với trường hợp vi phạm lần thứ hai') và trộn với phần đầu Điều 21 bị cắt giữa từ."},
+     "B": {"chunk_id": "tt08-2021:p20:st01", "score": 2, "reason": "Trọn Điều 20 (tiêu đề + 3 khoản)."}},
+    {"position_id": "pos05", "location": "tt10-2016:u03",
+     "A": {"chunk_id": "tt10-2016:u03:fix01", "score": 1, "reason": "Định nghĩa công tác sinh viên (Điều 3 khoản 1) bị cắt trước phần mục đích ('dịch vụ đối với '). Đầu chunk là mảnh 'rình đào tạo…'."},
+     "B": {"chunk_id": "tt10-2016:u03:st02", "score": 2, "reason": "Trọn Điều 3 (3 khoản)."}},
+    {"position_id": "pos06", "location": "tt10-2016:u09",
+     "A": {"chunk_id": "tt10-2016:u09:fix01", "score": 1, "reason": "Tiêu đề bị cắt mất số Điều ('h tự, thủ tục xét khen thưởng'); điểm b) bị cắt giữa câu. Điểm a) tại vị trí vẫn đọc được."},
+     "B": {"chunk_id": "tt10-2016:u09:st01", "score": 2, "reason": "Tiêu đề Điều 8 + khoản 1 + điểm a), b) trọn câu. Ghi chú: điểm c) của khoản 2 nằm ở chunk sau (giới hạn 800 ký tự), nhưng các câu không bị cắt."}},
+    {"position_id": "pos07", "location": "tt10-2016:u14",
+     "A": {"chunk_id": "tt10-2016:u14:fix01", "score": 1, "reason": "Có câu dẫn '5. Giáo dục thể chất', nhưng điểm b) chứa vị trí bị cắt cuối ('Tổ chức v'). Đầu chunk là mảnh 'làm,...'."},
+     "B": {"chunk_id": "tt10-2016:u14:st01", "score": 1, "reason": "Điểm b) đứng đầu chunk, mất câu dẫn '5. Giáo dục thể chất' và tiêu đề Điều 14 (nằm ở chunk trước). Câu vẫn đọc được nhưng thiếu ngữ cảnh đây là nội dung giáo dục thể chất; khoản 6 cũng bị tách."}},
+    {"position_id": "pos08", "location": "tt10-2016:u20",
+     "A": {"chunk_id": "tt10-2016:u20:fix01", "score": 1, "reason": "Mở đầu bằng mảnh tiêu đề 'Ổ CHỨC THỰC HIỆN'; khoản 3 Điều 22 bị cắt ('vào cu'). Khoản 2 tại vị trí trọn câu."},
+     "B": {"chunk_id": "tt10-2016:u20:st01", "score": 2, "reason": "Tiêu đề Chương VI + trọn Điều 22 (3 khoản)."}},
+    {"position_id": "pos09", "location": "tt16-2015:u03",
+     "A": {"chunk_id": "tt16-2015:u03:fix01", "score": 1, "reason": "Có câu dẫn của khoản 1 Điều 3 và các điểm a), b), nhưng điểm c) bị cắt ('thể tha'), thiếu d), đ) và thang điểm 100. Đầu chunk là mảnh 'ánh giá.'"},
+     "B": {"chunk_id": "tt16-2015:u03:st02", "score": 2, "reason": "Trọn Điều 3: 5 mặt đánh giá + thang điểm 100."}},
+    {"position_id": "pos10", "location": "tt16-2015:u09",
+     "A": {"chunk_id": "tt16-2015:u09:fix02", "score": 1, "reason": "Khoản 5 (rèn luyện yếu/kém) bị cắt ở 'ít nhất một họ', mất hậu quả 'buộc thôi học' ở lần thứ hai. Đầu chunk 'ược lưu trong hồ sơ…' mất chủ ngữ."},
+     "B": {"chunk_id": "tt16-2015:u09:st02", "score": 2, "reason": "Khoản 4 và 5 Điều 14 trọn câu, mỗi câu có chủ ngữ 'Người học…'."}}
+  ]
+}

@@ -1,0 +1,4 @@
+# Giữ nguyên byte (không đổi LF/CRLF) cho các file có sha256 ghi trong manifest / benchmark README
+data/raw/** -text
+data/reference/** -text
+benchmark/benchmark.json -text

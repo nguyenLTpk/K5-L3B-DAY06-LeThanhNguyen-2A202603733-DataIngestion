@@ -1,0 +1,149 @@
+{
+  "benchmark_sha256": "77bb4ad253ae14da8081e931b7493bb9776b16e9da8767f2dc66b31ec06616e2",
+  "metric_definition": "hit = đúng document_id + đúng trang/đơn vị gold + chứa đủ evidence (chuỗi con sau chuẩn hóa)",
+  "strategies": {
+    "A": {
+      "dev": {
+        "n": 15,
+        "hit1": "9/15",
+        "hit1_count": 9,
+        "hit1_rate": 0.6,
+        "hit3": "9/15",
+        "hit3_count": 9,
+        "hit3_rate": 0.6,
+        "gold_location_in_top3": "14/15",
+        "filter_questions": 3,
+        "top3_in_filter_scope": "2/3"
+      },
+      "test": {
+        "n": 5,
+        "hit1": "2/5",
+        "hit1_count": 2,
+        "hit1_rate": 0.4,
+        "hit3": "3/5",
+        "hit3_count": 3,
+        "hit3_rate": 0.6,
+        "gold_location_in_top3": "5/5",
+        "filter_questions": 2,
+        "top3_in_filter_scope": "1/2"
+      },
+      "overall": {
+        "n": 20,
+        "hit1": "11/20",
+        "hit1_count": 11,
+        "hit1_rate": 0.55,
+        "hit3": "12/20",
+        "hit3_count": 12,
+        "hit3_rate": 0.6,
+        "gold_location_in_top3": "19/20",
+        "filter_questions": 5,
+        "top3_in_filter_scope": "3/5"
+      }
+    },
+    "B": {
+      "dev": {
+        "n": 15,
+        "hit1": "10/15",
+        "hit1_count": 10,
+        "hit1_rate": 0.6667,
+        "hit3": "13/15",
+        "hit3_count": 13,
+        "hit3_rate": 0.8667,
+        "gold_location_in_top3": "13/15",
+        "filter_questions": 3,
+        "top3_in_filter_scope": "0/3"
+      },
+      "test": {
+        "n": 5,
+        "hit1": "4/5",
+        "hit1_count": 4,
+        "hit1_rate": 0.8,
+        "hit3": "5/5",
+        "hit3_count": 5,
+        "hit3_rate": 1.0,
+        "gold_location_in_top3": "5/5",
+        "filter_questions": 2,
+        "top3_in_filter_scope": "1/2"
+      },
+      "overall": {
+        "n": 20,
+        "hit1": "14/20",
+        "hit1_count": 14,
+        "hit1_rate": 0.7,
+        "hit3": "18/20",
+        "hit3_count": 18,
+        "hit3_rate": 0.9,
+        "gold_location_in_top3": "18/20",
+        "filter_questions": 5,
+        "top3_in_filter_scope": "1/5"
+      }
+    },
+    "C": {
+      "dev": {
+        "n": 15,
+        "hit1": "10/15",
+        "hit1_count": 10,
+        "hit1_rate": 0.6667,
+        "hit3": "14/15",
+        "hit3_count": 14,
+        "hit3_rate": 0.9333,
+        "gold_location_in_top3": "14/15",
+        "filter_questions": 3,
+        "top3_in_filter_scope": "3/3"
+      },
+      "test": {
+        "n": 5,
+        "hit1": "4/5",
+        "hit1_count": 4,
+        "hit1_rate": 0.8,
+        "hit3": "5/5",
+        "hit3_count": 5,
+        "hit3_rate": 1.0,
+        "gold_location_in_top3": "5/5",
+        "filter_questions": 2,
+        "top3_in_filter_scope": "2/2"
+      },
+      "overall": {
+        "n": 20,
+        "hit1": "14/20",
+        "hit1_count": 14,
+        "hit1_rate": 0.7,
+        "hit3": "19/20",
+        "hit3_count": 19,
+        "hit3_rate": 0.95,
+        "gold_location_in_top3": "19/20",
+        "filter_questions": 5,
+        "top3_in_filter_scope": "5/5"
+      }
+    }
+  },
+  "hnsw_top3_equals_exact_top3": {
+    "A": "20/20",
+    "B": "20/20",
+    "C": "20/20"
+  },
+  "chunk_stats": {
+    "A": {
+      "n_chunks": 222,
+      "total_chars": 99394,
+      "min": 56,
+      "median": 500.0,
+      "mean": 447.7,
+      "max": 500,
+      "total_tokens": 26715,
+      "mean_tokens": 120.3,
+      "max_tokens": 189
+    },
+    "B": {
+      "n_chunks": 178,
+      "total_chars": 90717,
+      "min": 45,
+      "median": 545.0,
+      "mean": 509.6,
+      "max": 799,
+      "total_tokens": 24137,
+      "mean_tokens": 135.6,
+      "max_tokens": 240
+    }
+  }
+}

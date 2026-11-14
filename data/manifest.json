@@ -1,0 +1,499 @@
+{
+  "corpus_id": "quy-che-sinh-vien-dai-hoc-vn",
+  "title": "Bộ quy chế dành cho sinh viên đại học chính quy (3 văn bản quy phạm pháp luật của Bộ GD&ĐT)",
+  "accessed_at": "2026-11-14",
+  "acquisition": "python scripts/fetch_corpus.py (tải lại nguồn, in sha256 để so với giá trị dưới đây)",
+  "license_or_permission": "Cả 3 tài liệu là văn bản quy phạm pháp luật (Thông tư của Bộ Giáo dục và Đào tạo). Theo khoản 2 Điều 15 Luật Sở hữu trí tuệ, văn bản quy phạm pháp luật không thuộc đối tượng bảo hộ quyền tác giả, nên được phép xử lý và tái phân phối. Với 2 nguồn HTML, repo chỉ lưu khối nội dung văn bản (div#divContentDoc), không lưu giao diện/menu của trang caselaw.vn. Corpus không chứa dữ liệu cá nhân hay dữ liệu mật.",
+  "validity_note": "Ngày hiệu lực ghi theo nội dung văn bản; không tự suy đoán. Corpus là snapshot lấy ngày 2026-11-14 để làm lab truy xuất, không dùng để tư vấn quy định hiện hành: tình trạng hiệu lực hiện tại của TT 10/2016 và TT 16/2015 chưa được kiểm chứng trên cơ sở dữ liệu chính thức (một số trang thứ ba ghi đã bị thay thế bởi văn bản năm 2026). TT 08/2021 có Công văn 2684/BGDĐT-GDĐH (2024) đính chính Điều 2 của Thông tư; nội dung đính chính không có trong corpus.",
+  "counting_rule": "Đơn vị nội dung = trang PDF vật lý có >= 300 ký tự nội dung quy chế sau chuẩn hóa, hoặc đơn vị HTML >= 1.500 ký tự đã chuẩn hóa (HTML không có phân trang; chia theo thứ tự tại ranh giới dòng, phần đuôi ngắn được gộp vào đơn vị trước). Trang PDF 1-2 là ảnh scan trang Thông tư (không có lớp text, không OCR) nên bị loại và ghi log. Không nhân bản nội dung.",
+  "documents": [
+    {
+      "document_id": "tt08-2021",
+      "title": "Quy chế đào tạo trình độ đại học (ban hành kèm theo Thông tư số 08/2021/TT-BGDĐT ngày 18/3/2021)",
+      "doc_code": "08/2021/TT-BGDĐT",
+      "regulation": "quy_che_dao_tao",
+      "issued_year": 2021,
+      "issued_date": "2021-03-18",
+      "effective_note": "Hiệu lực từ 03/05/2021 theo thông tin văn bản trên caselaw.vn (trang Thông tư trong PDF là ảnh scan nên không trích xuất được)",
+      "format": "pdf",
+      "path": "data/raw/tt08_2021_quy_che_dao_tao.pdf",
+      "source_url": "https://spnttw.edu.vn/wp-content/uploads/2021/05/thong-tu-08-1-da-gop.pdf",
+      "source_note": "Bản PDF do một trường cao đẳng đăng lại (trang 1-2 scan Thông tư, trang 3-22 là Quy chế dạng text). Nội dung được đối chiếu chéo với bản HTML trên caselaw.vn (data/reference/), xem results/ingest_log.json",
+      "sha256": "6b815bd4ee608c90667389a3b000dacd89bca472955292a03f80dd42bb5c577b",
+      "initial_part": "quy_che",
+      "min_content_chars": 300
+    },
+    {
+      "document_id": "tt10-2016",
+      "title": "Quy chế công tác sinh viên đối với chương trình đào tạo đại học hệ chính quy (ban hành kèm theo Thông tư số 10/2016/TT-BGDĐT ngày 05/4/2016)",
+      "doc_code": "10/2016/TT-BGDĐT",
+      "regulation": "quy_che_cong_tac_sinh_vien",
+      "issued_year": 2016,
+      "issued_date": "2016-04-05",
+      "effective_note": "Theo Điều 2 của Thông tư: có hiệu lực thi hành kể từ ngày 23 tháng 5 năm 2016",
+      "format": "html",
+      "path": "data/raw/tt10_2016_quy_che_cong_tac_sinh_vien.html",
+      "source_url": "https://caselaw.vn/van-ban-phap-luat/262795-thong-tu-10-2016-tt-bgddt-ve-quy-che-cong-tac-sinh-vien-doi-voi-chuong-trinh-dao-tao-dai-hoc-he-chinh-quy-do-bo-truong-bo-giao-duc-va-dao-tao-ban-hanh",
+      "download_sha256": "45a99aed9d004a473b65e10a4a97bb53d34bbeb74b67a73d2ec4fb3489edf0db",
+      "sha256": "e4bfc0984d669cf6d7fbd315ce1cd9255820f083fa868c04a573094da650021e",
+      "initial_part": "thong_tu"
+    },
+    {
+      "document_id": "tt16-2015",
+      "title": "Quy chế đánh giá kết quả rèn luyện của người học được đào tạo trình độ đại học hệ chính quy (ban hành kèm theo Thông tư số 16/2015/TT-BGDĐT ngày 12/8/2015)",
+      "doc_code": "16/2015/TT-BGDĐT",
+      "regulation": "quy_che_danh_gia_ren_luyen",
+      "issued_year": 2015,
+      "issued_date": "2015-08-12",
+      "effective_note": "Theo Điều 2 của Thông tư: có hiệu lực thi hành kể từ ngày 28 tháng 9 năm 2015",
+      "format": "html",
+      "path": "data/raw/tt16_2015_quy_che_danh_gia_ren_luyen.html",
+      "source_url": "https://caselaw.vn/van-ban-phap-luat/263580-thong-tu-16-2015-tt-bgddt-ve-quy-che-danh-gia-ket-qua-ren-luyen-cua-nguoi-hoc-duoc-dao-tao-trinh-do-dai-hoc-he-chinh-quy-do-bo-truong-bo-giao-duc-va-dao-tao-ban-hanh",
+      "download_sha256": "89513b4a64ec7c281bb56670bf162dabbff3643049c76be9199e8ed8490b2600",
+      "sha256": "fc9b21b598652cfe3ec957daf63e42979320004bb6b368812e20ad4970ba3952",
+      "initial_part": "thong_tu"
+    }
+  ],
+  "normalization_reference": [
+    {
+      "path": "data/reference/tt08_2021_caselaw.html",
+      "source_url": "https://caselaw.vn/van-ban-phap-luat/365862-thong-tu-so-08-2021-tt-bgddt-ngay-18-03-2021-cua-bo-truong-bo-giao-duc-va-dao-tao-ve-quy-che-dao-tao-trinh-do-dai-hoc",
+      "download_sha256": "a9f0bc84d23373e1a6d3609471a7e1d38c8c4fbf3c95b1853b90997627870bb6",
+      "sha256": "193f5c051619dc59773990cde6abc0496a0020d46eac714aaffd525139874d73",
+      "purpose": "Chỉ dùng làm từ điển âm tiết khi sửa lỗi tách chữ của PDF và để đối chiếu chéo nội dung. KHÔNG được index, không thuộc corpus."
+    }
+  ],
+  "units": [
+    {
+      "document_id": "tt08-2021",
+      "location": "p1",
+      "page": 1,
+      "printed_page": null,
+      "chars": 0,
+      "is_content": false
+    },
+    {
+      "document_id": "tt08-2021",
+      "location": "p2",
+      "page": 2,
+      "printed_page": null,
+      "chars": 0,
+      "is_content": false
+    },
+    {
+      "document_id": "tt08-2021",
+      "location": "p3",
+      "page": 3,
+      "printed_page": 1,
+      "chars": 2016,
+      "is_content": true
+    },
+    {
+      "document_id": "tt08-2021",
+      "location": "p4",
+      "page": 4,
+      "printed_page": 2,
+      "chars": 2265,
+      "is_content": true
+    },
+    {
+      "document_id": "tt08-2021",
+      "location": "p5",
+      "page": 5,
+      "printed_page": 3,
+      "chars": 1912,
+      "is_content": true
+    },
+    {
+      "document_id": "tt08-2021",
+      "location": "p6",
+      "page": 6,
+      "printed_page": 4,
+      "chars": 2168,
+      "is_content": true
+    },
+    {
+      "document_id": "tt08-2021",
+      "location": "p7",
+      "page": 7,
+      "printed_page": 5,
+      "chars": 2238,
+      "is_content": true
+    },
+    {
+      "document_id": "tt08-2021",
+      "location": "p8",
+      "page": 8,
+      "printed_page": 6,
+      "chars": 2314,
+      "is_content": true
+    },
+    {
+      "document_id": "tt08-2021",
+      "location": "p9",
+      "page": 9,
+      "printed_page": 7,
+      "chars": 2015,
+      "is_content": true
+    },
+    {
+      "document_id": "tt08-2021",
+      "location": "p10",
+      "page": 10,
+      "printed_page": 8,
+      "chars": 1601,
+      "is_content": true
+    },
+    {
+      "document_id": "tt08-2021",
+      "location": "p11",
+      "page": 11,
+      "printed_page": 9,
+      "chars": 1993,
+      "is_content": true
+    },
+    {
+      "document_id": "tt08-2021",
+      "location": "p12",
+      "page": 12,
+      "printed_page": 10,
+      "chars": 1793,
+      "is_content": true
+    },
+    {
+      "document_id": "tt08-2021",
+      "location": "p13",
+      "page": 13,
+      "printed_page": 11,
+      "chars": 1378,
+      "is_content": true
+    },
+    {
+      "document_id": "tt08-2021",
+      "location": "p14",
+      "page": 14,
+      "printed_page": 12,
+      "chars": 1681,
+      "is_content": true
+    },
+    {
+      "document_id": "tt08-2021",
+      "location": "p15",
+      "page": 15,
+      "printed_page": 13,
+      "chars": 2203,
+      "is_content": true
+    },
+    {
+      "document_id": "tt08-2021",
+      "location": "p16",
+      "page": 16,
+      "printed_page": 14,
+      "chars": 1777,
+      "is_content": true
+    },
+    {
+      "document_id": "tt08-2021",
+      "location": "p17",
+      "page": 17,
+      "printed_page": 15,
+      "chars": 2063,
+      "is_content": true
+    },
+    {
+      "document_id": "tt08-2021",
+      "location": "p18",
+      "page": 18,
+      "printed_page": 16,
+      "chars": 2281,
+      "is_content": true
+    },
+    {
+      "document_id": "tt08-2021",
+      "location": "p19",
+      "page": 19,
+      "printed_page": 17,
+      "chars": 2306,
+      "is_content": true
+    },
+    {
+      "document_id": "tt08-2021",
+      "location": "p20",
+      "page": 20,
+      "printed_page": 18,
+      "chars": 1911,
+      "is_content": true
+    },
+    {
+      "document_id": "tt08-2021",
+      "location": "p21",
+      "page": 21,
+      "printed_page": 19,
+      "chars": 2174,
+      "is_content": true
+    },
+    {
+      "document_id": "tt08-2021",
+      "location": "p22",
+      "page": 22,
+      "printed_page": 20,
+      "chars": 476,
+      "is_content": true
+    },
+    {
+      "document_id": "tt10-2016",
+      "location": "u01",
+      "page": 1,
+      "printed_page": null,
+      "chars": 1612,
+      "is_content": true
+    },
+    {
+      "document_id": "tt10-2016",
+      "location": "u02",
+      "page": 2,
+      "printed_page": null,
+      "chars": 1682,
+      "is_content": true
+    },
+    {
+      "document_id": "tt10-2016",
+      "location": "u03",
+      "page": 3,
+      "printed_page": null,
+      "chars": 1522,
+      "is_content": true
+    },
+    {
+      "document_id": "tt10-2016",
+      "location": "u04",
+      "page": 4,
+      "printed_page": null,
+      "chars": 1555,
+      "is_content": true
+    },
+    {
+      "document_id": "tt10-2016",
+      "location": "u05",
+      "page": 5,
+      "printed_page": null,
+      "chars": 1632,
+      "is_content": true
+    },
+    {
+      "document_id": "tt10-2016",
+      "location": "u06",
+      "page": 6,
+      "printed_page": null,
+      "chars": 1622,
+      "is_content": true
+    },
+    {
+      "document_id": "tt10-2016",
+      "location": "u07",
+      "page": 7,
+      "printed_page": null,
+      "chars": 1585,
+      "is_content": true
+    },
+    {
+      "document_id": "tt10-2016",
+      "location": "u08",
+      "page": 8,
+      "printed_page": null,
+      "chars": 1595,
+      "is_content": true
+    },
+    {
+      "document_id": "tt10-2016",
+      "location": "u09",
+      "page": 9,
+      "printed_page": null,
+      "chars": 1551,
+      "is_content": true
+    },
+    {
+      "document_id": "tt10-2016",
+      "location": "u10",
+      "page": 10,
+      "printed_page": null,
+      "chars": 1531,
+      "is_content": true
+    },
+    {
+      "document_id": "tt10-2016",
+      "location": "u11",
+      "page": 11,
+      "printed_page": null,
+      "chars": 1764,
+      "is_content": true
+    },
+    {
+      "document_id": "tt10-2016",
+      "location": "u12",
+      "page": 12,
+      "printed_page": null,
+      "chars": 1574,
+      "is_content": true
+    },
+    {
+      "document_id": "tt10-2016",
+      "location": "u13",
+      "page": 13,
+      "printed_page": null,
+      "chars": 1614,
+      "is_content": true
+    },
+    {
+      "document_id": "tt10-2016",
+      "location": "u14",
+      "page": 14,
+      "printed_page": null,
+      "chars": 1538,
+      "is_content": true
+    },
+    {
+      "document_id": "tt10-2016",
+      "location": "u15",
+      "page": 15,
+      "printed_page": null,
+      "chars": 1752,
+      "is_content": true
+    },
+    {
+      "document_id": "tt10-2016",
+      "location": "u16",
+      "page": 16,
+      "printed_page": null,
+      "chars": 1638,
+      "is_content": true
+    },
+    {
+      "document_id": "tt10-2016",
+      "location": "u17",
+      "page": 17,
+      "printed_page": null,
+      "chars": 1810,
+      "is_content": true
+    },
+    {
+      "document_id": "tt10-2016",
+      "location": "u18",
+      "page": 18,
+      "printed_page": null,
+      "chars": 1771,
+      "is_content": true
+    },
+    {
+      "document_id": "tt10-2016",
+      "location": "u19",
+      "page": 19,
+      "printed_page": null,
+      "chars": 1610,
+      "is_content": true
+    },
+    {
+      "document_id": "tt10-2016",
+      "location": "u20",
+      "page": 20,
+      "printed_page": null,
+      "chars": 1558,
+      "is_content": true
+    },
+    {
+      "document_id": "tt10-2016",
+      "location": "u21",
+      "page": 21,
+      "printed_page": null,
+      "chars": 1519,
+      "is_content": true
+    },
+    {
+      "document_id": "tt10-2016",
+      "location": "u22",
+      "page": 22,
+      "printed_page": null,
+      "chars": 2908,
+      "is_content": true
+    },
+    {
+      "document_id": "tt16-2015",
+      "location": "u01",
+      "page": 1,
+      "printed_page": null,
+      "chars": 1524,
+      "is_content": true
+    },
+    {
+      "document_id": "tt16-2015",
+      "location": "u02",
+      "page": 2,
+      "printed_page": null,
+      "chars": 1724,
+      "is_content": true
+    },
+    {
+      "document_id": "tt16-2015",
+      "location": "u03",
+      "page": 3,
+      "printed_page": null,
+      "chars": 1572,
+      "is_content": true
+    },
+    {
+      "document_id": "tt16-2015",
+      "location": "u04",
+      "page": 4,
+      "printed_page": null,
+      "chars": 1673,
+      "is_content": true
+    },
+    {
+      "document_id": "tt16-2015",
+      "location": "u05",
+      "page": 5,
+      "printed_page": null,
+      "chars": 1515,
+      "is_content": true
+    },
+    {
+      "document_id": "tt16-2015",
+      "location": "u06",
+      "page": 6,
+      "printed_page": null,
+      "chars": 1506,
+      "is_content": true
+    },
+    {
+      "document_id": "tt16-2015",
+      "location": "u07",
+      "page": 7,
+      "printed_page": null,
+      "chars": 1533,
+      "is_content": true
+    },
+    {
+      "document_id": "tt16-2015",
+      "location": "u08",
+      "page": 8,
+      "printed_page": null,
+      "chars": 1516,
+      "is_content": true
+    },
+    {
+      "document_id": "tt16-2015",
+      "location": "u09",
+      "page": 9,
+      "printed_page": null,
+      "chars": 2773,
+      "is_content": true
+    }
+  ],
+  "total_units": 53,
+  "total_content_units": 51,
+  "content_units_by_document": {
+    "tt08-2021": 20,
+    "tt10-2016": 22,
+    "tt16-2015": 9
+  }
+}

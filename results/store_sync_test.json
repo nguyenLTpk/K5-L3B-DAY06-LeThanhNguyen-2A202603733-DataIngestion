@@ -1,0 +1,29 @@
+{
+  "n_chunks_initial": 3,
+  "steps": {
+    "1_first_load": {
+      "before": 0,
+      "deleted_stale": 0,
+      "embedded_upserted": 3,
+      "unchanged": 0,
+      "after": 3
+    },
+    "2_reload_same": {
+      "before": 3,
+      "deleted_stale": 0,
+      "embedded_upserted": 0,
+      "unchanged": 3,
+      "after": 3
+    },
+    "3_document_changed": {
+      "before": 3,
+      "deleted_stale": 1,
+      "embedded_upserted": 1,
+      "unchanged": 1,
+      "after": 2
+    }
+  },
+  "removed_chunk_gone": true,
+  "no_duplicates": true,
+  "pass": true
+}

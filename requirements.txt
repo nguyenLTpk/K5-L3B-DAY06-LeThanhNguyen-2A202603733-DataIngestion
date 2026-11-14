@@ -1,0 +1,6 @@
+# Day 06 pipeline (đã chạy với Python 3.11.9 trên Windows 11, CPU)
+chromadb==1.5.9
+onnxruntime==1.32.0
+tokenizers==0.23.3
+pypdf==6.21.4
+numpy==2.4.6

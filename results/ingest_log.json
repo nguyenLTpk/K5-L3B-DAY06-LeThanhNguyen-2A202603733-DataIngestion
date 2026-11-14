@@ -1,0 +1,590 @@
+{
+  "vocab_size": 881,
+  "documents": {
+    "tt08-2021": {
+      "format": "pdf",
+      "units": 22,
+      "content_units": 20,
+      "excluded_units": [
+        "p1",
+        "p2"
+      ],
+      "errors": [],
+      "lines_joined": 386,
+      "syllable_repairs": 95,
+      "details": [
+        {
+          "document_id": "tt08-2021",
+          "location": "p1",
+          "printed_page": null,
+          "raw_chars": 0,
+          "normalized_chars": 0,
+          "images": 1,
+          "is_content": false,
+          "oov_rate_before_repair": 0.0,
+          "oov_rate_after_repair": 0.0,
+          "lines_in": 0,
+          "lines_joined": 0,
+          "syllable_repairs": 0,
+          "warning": "trang rỗng sau trích xuất (trang scan/ảnh, không OCR) -> không tính là trang nội dung"
+        },
+        {
+          "document_id": "tt08-2021",
+          "location": "p2",
+          "printed_page": null,
+          "raw_chars": 0,
+          "normalized_chars": 0,
+          "images": 1,
+          "is_content": false,
+          "oov_rate_before_repair": 0.0,
+          "oov_rate_after_repair": 0.0,
+          "lines_in": 0,
+          "lines_joined": 0,
+          "syllable_repairs": 0,
+          "warning": "trang rỗng sau trích xuất (trang scan/ảnh, không OCR) -> không tính là trang nội dung"
+        },
+        {
+          "document_id": "tt08-2021",
+          "location": "p3",
+          "printed_page": 1,
+          "raw_chars": 2082,
+          "normalized_chars": 2016,
+          "images": 0,
+          "is_content": true,
+          "oov_rate_before_repair": 0.0201,
+          "oov_rate_after_repair": 0.0,
+          "lines_in": 33,
+          "lines_joined": 20,
+          "syllable_repairs": 5
+        },
+        {
+          "document_id": "tt08-2021",
+          "location": "p4",
+          "printed_page": 2,
+          "raw_chars": 2330,
+          "normalized_chars": 2265,
+          "images": 0,
+          "is_content": true,
+          "oov_rate_before_repair": 0.0308,
+          "oov_rate_after_repair": 0.0,
+          "lines_in": 34,
+          "lines_joined": 24,
+          "syllable_repairs": 8
+        },
+        {
+          "document_id": "tt08-2021",
+          "location": "p5",
+          "printed_page": 3,
+          "raw_chars": 1971,
+          "normalized_chars": 1912,
+          "images": 0,
+          "is_content": true,
+          "oov_rate_before_repair": 0.0235,
+          "oov_rate_after_repair": 0.0,
+          "lines_in": 34,
+          "lines_joined": 19,
+          "syllable_repairs": 6
+        },
+        {
+          "document_id": "tt08-2021",
+          "location": "p6",
+          "printed_page": 4,
+          "raw_chars": 2226,
+          "normalized_chars": 2168,
+          "images": 0,
+          "is_content": true,
+          "oov_rate_before_repair": 0.0104,
+          "oov_rate_after_repair": 0.0,
+          "lines_in": 34,
+          "lines_joined": 20,
+          "syllable_repairs": 4
+        },
+        {
+          "document_id": "tt08-2021",
+          "location": "p7",
+          "printed_page": 5,
+          "raw_chars": 2297,
+          "normalized_chars": 2238,
+          "images": 0,
+          "is_content": true,
+          "oov_rate_before_repair": 0.0316,
+          "oov_rate_after_repair": 0.0,
+          "lines_in": 34,
+          "lines_joined": 22,
+          "syllable_repairs": 9
+        },
+        {
+          "document_id": "tt08-2021",
+          "location": "p8",
+          "printed_page": 6,
+          "raw_chars": 2369,
+          "normalized_chars": 2314,
+          "images": 0,
+          "is_content": true,
+          "oov_rate_before_repair": 0.0058,
+          "oov_rate_after_repair": 0.0,
+          "lines_in": 35,
+          "lines_joined": 21,
+          "syllable_repairs": 2
+        },
+        {
+          "document_id": "tt08-2021",
+          "location": "p9",
+          "printed_page": 7,
+          "raw_chars": 2072,
+          "normalized_chars": 2015,
+          "images": 0,
+          "is_content": true,
+          "oov_rate_before_repair": 0.0158,
+          "oov_rate_after_repair": 0.0,
+          "lines_in": 34,
+          "lines_joined": 20,
+          "syllable_repairs": 5
+        },
+        {
+          "document_id": "tt08-2021",
+          "location": "p10",
+          "printed_page": 8,
+          "raw_chars": 1651,
+          "normalized_chars": 1601,
+          "images": 0,
+          "is_content": true,
+          "oov_rate_before_repair": 0.0087,
+          "oov_rate_after_repair": 0.0,
+          "lines_in": 32,
+          "lines_joined": 22,
+          "syllable_repairs": 2
+        },
+        {
+          "document_id": "tt08-2021",
+          "location": "p11",
+          "printed_page": 9,
+          "raw_chars": 2052,
+          "normalized_chars": 1993,
+          "images": 0,
+          "is_content": true,
+          "oov_rate_before_repair": 0.0045,
+          "oov_rate_after_repair": 0.0,
+          "lines_in": 33,
+          "lines_joined": 17,
+          "syllable_repairs": 1
+        },
+        {
+          "document_id": "tt08-2021",
+          "location": "p12",
+          "printed_page": 10,
+          "raw_chars": 1847,
+          "normalized_chars": 1793,
+          "images": 0,
+          "is_content": true,
+          "oov_rate_before_repair": 0.0182,
+          "oov_rate_after_repair": 0.0,
+          "lines_in": 33,
+          "lines_joined": 25,
+          "syllable_repairs": 4
+        },
+        {
+          "document_id": "tt08-2021",
+          "location": "p13",
+          "printed_page": 11,
+          "raw_chars": 1418,
+          "normalized_chars": 1378,
+          "images": 0,
+          "is_content": true,
+          "oov_rate_before_repair": 0.0101,
+          "oov_rate_after_repair": 0.0,
+          "lines_in": 30,
+          "lines_joined": 15,
+          "syllable_repairs": 2
+        },
+        {
+          "document_id": "tt08-2021",
+          "location": "p14",
+          "printed_page": 12,
+          "raw_chars": 1724,
+          "normalized_chars": 1681,
+          "images": 0,
+          "is_content": true,
+          "oov_rate_before_repair": 0.0027,
+          "oov_rate_after_repair": 0.0,
+          "lines_in": 30,
+          "lines_joined": 12,
+          "syllable_repairs": 1
+        },
+        {
+          "document_id": "tt08-2021",
+          "location": "p15",
+          "printed_page": 13,
+          "raw_chars": 2261,
+          "normalized_chars": 2203,
+          "images": 0,
+          "is_content": true,
+          "oov_rate_before_repair": 0.021,
+          "oov_rate_after_repair": 0.0,
+          "lines_in": 34,
+          "lines_joined": 19,
+          "syllable_repairs": 7
+        },
+        {
+          "document_id": "tt08-2021",
+          "location": "p16",
+          "printed_page": 14,
+          "raw_chars": 1827,
+          "normalized_chars": 1777,
+          "images": 0,
+          "is_content": true,
+          "oov_rate_before_repair": 0.0152,
+          "oov_rate_after_repair": 0.0,
+          "lines_in": 32,
+          "lines_joined": 16,
+          "syllable_repairs": 4
+        },
+        {
+          "document_id": "tt08-2021",
+          "location": "p17",
+          "printed_page": 15,
+          "raw_chars": 2121,
+          "normalized_chars": 2063,
+          "images": 0,
+          "is_content": true,
+          "oov_rate_before_repair": 0.0242,
+          "oov_rate_after_repair": 0.0022,
+          "lines_in": 33,
+          "lines_joined": 20,
+          "syllable_repairs": 7
+        },
+        {
+          "document_id": "tt08-2021",
+          "location": "p18",
+          "printed_page": 16,
+          "raw_chars": 2337,
+          "normalized_chars": 2281,
+          "images": 0,
+          "is_content": true,
+          "oov_rate_before_repair": 0.0256,
+          "oov_rate_after_repair": 0.0,
+          "lines_in": 34,
+          "lines_joined": 24,
+          "syllable_repairs": 8
+        },
+        {
+          "document_id": "tt08-2021",
+          "location": "p19",
+          "printed_page": 17,
+          "raw_chars": 2364,
+          "normalized_chars": 2306,
+          "images": 0,
+          "is_content": true,
+          "oov_rate_before_repair": 0.0163,
+          "oov_rate_after_repair": 0.0,
+          "lines_in": 34,
+          "lines_joined": 24,
+          "syllable_repairs": 5
+        },
+        {
+          "document_id": "tt08-2021",
+          "location": "p20",
+          "printed_page": 18,
+          "raw_chars": 1965,
+          "normalized_chars": 1911,
+          "images": 0,
+          "is_content": true,
+          "oov_rate_before_repair": 0.0253,
+          "oov_rate_after_repair": 0.0,
+          "lines_in": 32,
+          "lines_joined": 20,
+          "syllable_repairs": 6
+        },
+        {
+          "document_id": "tt08-2021",
+          "location": "p21",
+          "printed_page": 19,
+          "raw_chars": 2230,
+          "normalized_chars": 2174,
+          "images": 0,
+          "is_content": true,
+          "oov_rate_before_repair": 0.0329,
+          "oov_rate_after_repair": 0.0021,
+          "lines_in": 34,
+          "lines_joined": 20,
+          "syllable_repairs": 9
+        },
+        {
+          "document_id": "tt08-2021",
+          "location": "p22",
+          "printed_page": 20,
+          "raw_chars": 507,
+          "normalized_chars": 476,
+          "images": 0,
+          "is_content": true,
+          "oov_rate_before_repair": 0.0,
+          "oov_rate_after_repair": 0.0,
+          "lines_in": 13,
+          "lines_joined": 6,
+          "syllable_repairs": 0
+        }
+      ]
+    },
+    "tt10-2016": {
+      "format": "html",
+      "units": 22,
+      "content_units": 22,
+      "excluded_units": [],
+      "errors": [],
+      "lines_in": 382,
+      "lines_joined": 0,
+      "syllable_repairs": 0,
+      "site_chrome_chars_removed": 139,
+      "case_artifacts_fixed": 50,
+      "details": [
+        {
+          "document_id": "tt10-2016",
+          "location": "u01",
+          "normalized_chars": 1612,
+          "first_line": "BỘ GIÁO DỤC VÀ ĐÀO TẠO",
+          "is_content": true,
+          "html_normalize_stats": {
+            "lines_in": 382,
+            "lines_joined": 0,
+            "syllable_repairs": 0,
+            "site_chrome_chars_removed": 139,
+            "case_artifacts_fixed": 50
+          }
+        },
+        {
+          "document_id": "tt10-2016",
+          "location": "u02",
+          "normalized_chars": 1682,
+          "first_line": "Điều 2. Thông tư này có hiệu lực thi hành kể từ ngày 23 tháng 5 năm 2016 và thay",
+          "is_content": true
+        },
+        {
+          "document_id": "tt10-2016",
+          "location": "u03",
+          "normalized_chars": 1522,
+          "first_line": "2. Quy chế này áp dụng đối với các đại học quốc gia, đại học vùng, học viện, trư",
+          "is_content": true
+        },
+        {
+          "document_id": "tt10-2016",
+          "location": "u04",
+          "normalized_chars": 1555,
+          "first_line": "2. Học tập, rèn luyện theo chương trình, kế hoạch giáo dục, đào tạo của cơ sở gi",
+          "is_content": true
+        },
+        {
+          "document_id": "tt10-2016",
+          "location": "u05",
+          "normalized_chars": 1632,
+          "first_line": "10. Tham gia công tác bảo đảm an ninh, trật tự, an toàn giao thông, phòng chống ",
+          "is_content": true
+        },
+        {
+          "document_id": "tt10-2016",
+          "location": "u06",
+          "normalized_chars": 1622,
+          "first_line": "f) Sử dụng các dịch vụ công tác xã hội hiện có của cơ sở giáo dục đại học (bao g",
+          "is_content": true
+        },
+        {
+          "document_id": "tt10-2016",
+          "location": "u07",
+          "normalized_chars": 1585,
+          "first_line": "2. Gian lận trong học tập, kiểm tra, thi cử như: quay cóp, mang tài liệu vào phò",
+          "is_content": true
+        },
+        {
+          "document_id": "tt10-2016",
+          "location": "u08",
+          "normalized_chars": 1595,
+          "first_line": "10. Tổ chức hoặc tham gia các hoạt động vi phạm pháp luật khác.",
+          "is_content": true
+        },
+        {
+          "document_id": "tt10-2016",
+          "location": "u09",
+          "normalized_chars": 1551,
+          "first_line": "- Danh hiệu cá nhân được lưu vào hồ sơ quản lý sinh viên.",
+          "is_content": true
+        },
+        {
+          "document_id": "tt10-2016",
+          "location": "u10",
+          "normalized_chars": 1531,
+          "first_line": "a) Khiển trách: áp dụng đối với sinh viên có hành vi vi phạm lần đầu nhưng ở mức",
+          "is_content": true
+        },
+        {
+          "document_id": "tt10-2016",
+          "location": "u11",
+          "normalized_chars": 1764,
+          "first_line": "Điều 10. Trình tự, thủ tục và hồ sơ xét kỷ luật",
+          "is_content": true
+        },
+        {
+          "document_id": "tt10-2016",
+          "location": "u12",
+          "normalized_chars": 1574,
+          "first_line": "2. Đối với sinh viên bị kỷ luật cảnh cáo: sau 06 tháng kể từ ngày có quyết định ",
+          "is_content": true
+        },
+        {
+          "document_id": "tt10-2016",
+          "location": "u13",
+          "normalized_chars": 1614,
+          "first_line": "2. Thủ trưởng cơ sở giáo dục đại học ra quyết định thành lập và quy định cụ thể ",
+          "is_content": true
+        },
+        {
+          "document_id": "tt10-2016",
+          "location": "u14",
+          "normalized_chars": 1538,
+          "first_line": "3. Giáo dục, tuyên truyền phổ biến pháp luật",
+          "is_content": true
+        },
+        {
+          "document_id": "tt10-2016",
+          "location": "u15",
+          "normalized_chars": 1752,
+          "first_line": "Điều 15. Công tác quản lý sinh viên",
+          "is_content": true
+        },
+        {
+          "document_id": "tt10-2016",
+          "location": "u16",
+          "normalized_chars": 1638,
+          "first_line": "b) Xây dựng môi trường giáo dục lành mạnh, đảm bảo an toàn cho các hoạt động học",
+          "is_content": true
+        },
+        {
+          "document_id": "tt10-2016",
+          "location": "u17",
+          "normalized_chars": 1810,
+          "first_line": "4. Hỗ trợ tài chính",
+          "is_content": true
+        },
+        {
+          "document_id": "tt10-2016",
+          "location": "u18",
+          "normalized_chars": 1771,
+          "first_line": "4. Đảm bảo các điều kiện để phát huy hiệu quả vai trò của tổ chức Đoàn TNCS Hồ C",
+          "is_content": true
+        },
+        {
+          "document_id": "tt10-2016",
+          "location": "u19",
+          "normalized_chars": 1610,
+          "first_line": "2. Ban cán sự lớp sinh viên gồm:",
+          "is_content": true
+        },
+        {
+          "document_id": "tt10-2016",
+          "location": "u20",
+          "normalized_chars": 1558,
+          "first_line": "2. Ban cán sự lớp học học phần gồm lớp trưởng và các lớp phó do cơ sở giáo dục đ",
+          "is_content": true
+        },
+        {
+          "document_id": "tt10-2016",
+          "location": "u21",
+          "normalized_chars": 1519,
+          "first_line": "PHỤ LỤC",
+          "is_content": true
+        },
+        {
+          "document_id": "tt10-2016",
+          "location": "u22",
+          "normalized_chars": 2908,
+          "first_line": "Tùy mức độ xử lý từ khiển trách đến buộc thôi học và phải bồi thường thiệt hại",
+          "is_content": true
+        }
+      ]
+    },
+    "tt16-2015": {
+      "format": "html",
+      "units": 9,
+      "content_units": 9,
+      "excluded_units": [],
+      "errors": [],
+      "lines_in": 167,
+      "lines_joined": 0,
+      "syllable_repairs": 0,
+      "site_chrome_chars_removed": 139,
+      "case_artifacts_fixed": 0,
+      "details": [
+        {
+          "document_id": "tt16-2015",
+          "location": "u01",
+          "normalized_chars": 1524,
+          "first_line": "BỘ GIÁO DỤC VÀ ĐÀO TẠO",
+          "is_content": true,
+          "html_normalize_stats": {
+            "lines_in": 167,
+            "lines_joined": 0,
+            "syllable_repairs": 0,
+            "site_chrome_chars_removed": 139,
+            "case_artifacts_fixed": 0
+          }
+        },
+        {
+          "document_id": "tt16-2015",
+          "location": "u02",
+          "normalized_chars": 1724,
+          "first_line": "Điều 1. Ban hành kèm theo Thông tư này Quy chế đánh giá kết quả rèn luyện của ng",
+          "is_content": true
+        },
+        {
+          "document_id": "tt16-2015",
+          "location": "u03",
+          "normalized_chars": 1572,
+          "first_line": "2. Quy chế này áp dụng đối với người học được đào tạo trình độ đại học hệ chính ",
+          "is_content": true
+        },
+        {
+          "document_id": "tt16-2015",
+          "location": "u04",
+          "normalized_chars": 1673,
+          "first_line": "c) Ý thức và thái độ tham gia các kỳ thi, cuộc thi;",
+          "is_content": true
+        },
+        {
+          "document_id": "tt16-2015",
+          "location": "u05",
+          "normalized_chars": 1515,
+          "first_line": "1. Các tiêu chí để xác định điểm đánh giá:",
+          "is_content": true
+        },
+        {
+          "document_id": "tt16-2015",
+          "location": "u06",
+          "normalized_chars": 1506,
+          "first_line": "5. Người học hoàn thành chương trình học và tốt nghiệp chậm so với quy định của ",
+          "is_content": true
+        },
+        {
+          "document_id": "tt16-2015",
+          "location": "u07",
+          "normalized_chars": 1533,
+          "first_line": "1. Người học căn cứ vào kết quả rèn luyện của bản thân, tự đánh giá theo mức điể",
+          "is_content": true
+        },
+        {
+          "document_id": "tt16-2015",
+          "location": "u08",
+          "normalized_chars": 1516,
+          "first_line": "b) Thành phần Hội đồng cấp trường bao gồm:",
+          "is_content": true
+        },
+        {
+          "document_id": "tt16-2015",
+          "location": "u09",
+          "normalized_chars": 2773,
+          "first_line": "Điều 13. Thời gian đánh giá",
+          "is_content": true
+        }
+      ]
+    }
+  },
+  "total_units": 53,
+  "total_content_units": 51
+}

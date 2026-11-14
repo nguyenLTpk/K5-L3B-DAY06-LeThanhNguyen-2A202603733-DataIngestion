@@ -1,0 +1,31 @@
+{
+  "method": "5 câu test x top-3 của mỗi chiến lược (results/audit/grounding_sheet.json). Đọc toàn văn top-3 và chấm độ đủ của BẰNG CHỨNG truy xuất (không phải độ đúng của câu trả lời LLM).",
+  "scale": {
+    "0": "top-3 không có bằng chứng cho đáp án",
+    "1": "có bằng chứng nhưng thiếu điều kiện/ngữ cảnh cần thiết để trả lời đầy đủ",
+    "2": "đủ bằng chứng (kể cả điều kiện/ngoại lệ) để trả lời và truy được nguồn (document/trang/Điều)"
+  },
+  "annotator": "Claude (trợ lý AI) chấm theo thang trên, kèm lý do; học viên rà soát lại. Không chấm mù: người chấm thấy kết quả Hit@3 tự động trước khi chấm.",
+  "labels": [
+    {"question_id": "q16",
+     "A": {"score": 2, "reason": "r3 (tt08 p16, Điều 15) chứa trọn điểm d): học tối thiểu 01 học kỳ và không thuộc diện xem xét buộc thôi học/kỷ luật. r1 cho thêm ngữ cảnh các trường hợp a-c."},
+     "B": {"score": 2, "reason": "r1 là trọn khoản 1 Điều 15 (a-d) kèm tiêu đề, đủ điều kiện và nguồn."},
+     "C": {"score": 2, "reason": "Câu không có filter nên kết quả giống B."}},
+    {"question_id": "q17",
+     "A": {"score": 0, "reason": "Top-3 đúng Điều 13 nhưng câu chứa giới hạn 50% bị cắt sang cửa sổ kế tiếp (r2 dừng ở '3. Cơ sở đào tạo công khai q'), không có con số để trả lời. r3 thuộc Điều 16, không liên quan."},
+     "B": {"score": 2, "reason": "r2 là trọn khoản 3 Điều 13: tối đa 50% và ngoại lệ ngành đào tạo giáo viên. Lưu ý r3 (Điều 17, 25% trao đổi sinh viên) là nội dung gây nhiễu."},
+     "C": {"score": 2, "reason": "Câu không có filter nên kết quả giống B."}},
+    {"question_id": "q18",
+     "A": {"score": 2, "reason": "r1 (tt16 u05) chứa trọn câu 'bị kỷ luật mức khiển trách… không được vượt quá loại khá'. r3 là định nghĩa khiển trách của TT10 (nhiễu khác văn bản) nhưng không che mất bằng chứng."},
+     "B": {"score": 2, "reason": "r1 là trọn Điều 10 khoản 1-3. r2 thuộc TT10 (nhiễu)."},
+     "C": {"score": 2, "reason": "r1 như B. Nhờ filter, cả top-3 đều thuộc TT16, không còn nhiễu từ văn bản khác."}},
+    {"question_id": "q19",
+     "A": {"score": 2, "reason": "r1 chứa tiêu đề Điều 12 và điểm a) 'Chủ tịch Hội đồng: là Thủ trưởng hoặc cấp phó…'."},
+     "B": {"score": 2, "reason": "r1 là trọn khoản 1 Điều 12 (Chủ tịch, Thường trực, ủy viên)."},
+     "C": {"score": 2, "reason": "Giống B; top-3 đã nằm trong TT10 ngay cả khi không lọc."}},
+    {"question_id": "q20",
+     "A": {"score": 1, "reason": "r1 có hậu quả (tạm ngừng học ít nhất một học kỳ; lần thứ hai buộc thôi học), nhưng mất phần đầu điều kiện 'Người học bị xếp loại rèn luyện yếu, kém trong hai học' (bị cắt ở cửa sổ trước), chỉ còn 'kỳ liên tiếp thì…'."},
+     "B": {"score": 2, "reason": "r1 có trọn khoản 5 Điều 14: điều kiện và cả hai mức hậu quả."},
+     "C": {"score": 2, "reason": "Câu không có filter nên kết quả giống B."}}
+  ]
+}

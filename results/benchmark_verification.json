@@ -1,0 +1,256 @@
+{
+  "benchmark_sha256": "77bb4ad253ae14da8081e931b7493bb9776b16e9da8767f2dc66b31ec06616e2",
+  "n_questions": 20,
+  "split": {
+    "dev": 15,
+    "test": 5
+  },
+  "types": {
+    "truc_tiep": 5,
+    "dieu_kien_ngoai_le": 6,
+    "metadata_filter": 5,
+    "dien_dat_lai": 4
+  },
+  "by_document": {
+    "tt08-2021": 10,
+    "tt16-2015": 5,
+    "tt10-2016": 5
+  },
+  "filter_questions": 5,
+  "filter_questions_test": 2,
+  "test_articles_overlapping_dev": [],
+  "all_evidence_verified": true,
+  "problems": [],
+  "questions": [
+    {
+      "id": "q01",
+      "split": "dev",
+      "type": "truc_tiep",
+      "gold": "tt08-2021:p7",
+      "evidence_chars": 77,
+      "evidence_found_in_gold": true,
+      "evidence_also_in": [],
+      "filter": null,
+      "filter_values_exist": null
+    },
+    {
+      "id": "q02",
+      "split": "dev",
+      "type": "truc_tiep",
+      "gold": "tt08-2021:p9",
+      "evidence_chars": 152,
+      "evidence_found_in_gold": true,
+      "evidence_also_in": [],
+      "filter": null,
+      "filter_values_exist": null
+    },
+    {
+      "id": "q03",
+      "split": "dev",
+      "type": "dieu_kien_ngoai_le",
+      "gold": "tt08-2021:p10",
+      "evidence_chars": 102,
+      "evidence_found_in_gold": true,
+      "evidence_also_in": [],
+      "filter": null,
+      "filter_values_exist": null
+    },
+    {
+      "id": "q04",
+      "split": "dev",
+      "type": "dieu_kien_ngoai_le",
+      "gold": "tt08-2021:p13",
+      "evidence_chars": 107,
+      "evidence_found_in_gold": true,
+      "evidence_also_in": [],
+      "filter": null,
+      "filter_values_exist": null
+    },
+    {
+      "id": "q05",
+      "split": "dev",
+      "type": "metadata_filter",
+      "gold": "tt08-2021:p12",
+      "evidence_chars": 44,
+      "evidence_found_in_gold": true,
+      "evidence_also_in": [],
+      "filter": {
+        "regulation": "quy_che_dao_tao"
+      },
+      "filter_values_exist": true
+    },
+    {
+      "id": "q06",
+      "split": "dev",
+      "type": "truc_tiep",
+      "gold": "tt08-2021:p15",
+      "evidence_chars": 187,
+      "evidence_found_in_gold": true,
+      "evidence_also_in": [],
+      "filter": null,
+      "filter_values_exist": null
+    },
+    {
+      "id": "q07",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "gold": "tt08-2021:p18",
+      "evidence_chars": 120,
+      "evidence_found_in_gold": true,
+      "evidence_also_in": [],
+      "filter": null,
+      "filter_values_exist": null
+    },
+    {
+      "id": "q08",
+      "split": "dev",
+      "type": "dieu_kien_ngoai_le",
+      "gold": "tt08-2021:p20",
+      "evidence_chars": 180,
+      "evidence_found_in_gold": true,
+      "evidence_also_in": [],
+      "filter": null,
+      "filter_values_exist": null
+    },
+    {
+      "id": "q09",
+      "split": "dev",
+      "type": "metadata_filter",
+      "gold": "tt16-2015:u05",
+      "evidence_chars": 74,
+      "evidence_found_in_gold": true,
+      "evidence_also_in": [],
+      "filter": {
+        "regulation": "quy_che_danh_gia_ren_luyen"
+      },
+      "filter_values_exist": true
+    },
+    {
+      "id": "q10",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "gold": "tt16-2015:u09",
+      "evidence_chars": 91,
+      "evidence_found_in_gold": true,
+      "evidence_also_in": [],
+      "filter": null,
+      "filter_values_exist": null
+    },
+    {
+      "id": "q11",
+      "split": "dev",
+      "type": "truc_tiep",
+      "gold": "tt16-2015:u04",
+      "evidence_chars": 145,
+      "evidence_found_in_gold": true,
+      "evidence_also_in": [],
+      "filter": null,
+      "filter_values_exist": null
+    },
+    {
+      "id": "q12",
+      "split": "dev",
+      "type": "metadata_filter",
+      "gold": "tt10-2016:u08",
+      "evidence_chars": 100,
+      "evidence_found_in_gold": true,
+      "evidence_also_in": [],
+      "filter": {
+        "regulation": "quy_che_cong_tac_sinh_vien"
+      },
+      "filter_values_exist": true
+    },
+    {
+      "id": "q13",
+      "split": "dev",
+      "type": "truc_tiep",
+      "gold": "tt10-2016:u11",
+      "evidence_chars": 234,
+      "evidence_found_in_gold": true,
+      "evidence_also_in": [],
+      "filter": null,
+      "filter_values_exist": null
+    },
+    {
+      "id": "q14",
+      "split": "dev",
+      "type": "dien_dat_lai",
+      "gold": "tt10-2016:u10",
+      "evidence_chars": 65,
+      "evidence_found_in_gold": true,
+      "evidence_also_in": [],
+      "filter": null,
+      "filter_values_exist": null
+    },
+    {
+      "id": "q15",
+      "split": "dev",
+      "type": "dieu_kien_ngoai_le",
+      "gold": "tt10-2016:u04",
+      "evidence_chars": 279,
+      "evidence_found_in_gold": true,
+      "evidence_also_in": [],
+      "filter": null,
+      "filter_values_exist": null
+    },
+    {
+      "id": "q16",
+      "split": "test",
+      "type": "dieu_kien_ngoai_le",
+      "gold": "tt08-2021:p16",
+      "evidence_chars": 152,
+      "evidence_found_in_gold": true,
+      "evidence_also_in": [],
+      "filter": null,
+      "filter_values_exist": null
+    },
+    {
+      "id": "q17",
+      "split": "test",
+      "type": "dien_dat_lai",
+      "gold": "tt08-2021:p15",
+      "evidence_chars": 118,
+      "evidence_found_in_gold": true,
+      "evidence_also_in": [],
+      "filter": null,
+      "filter_values_exist": null
+    },
+    {
+      "id": "q18",
+      "split": "test",
+      "type": "metadata_filter",
+      "gold": "tt16-2015:u05",
+      "evidence_chars": 114,
+      "evidence_found_in_gold": true,
+      "evidence_also_in": [],
+      "filter": {
+        "regulation": "quy_che_danh_gia_ren_luyen"
+      },
+      "filter_values_exist": true
+    },
+    {
+      "id": "q19",
+      "split": "test",
+      "type": "metadata_filter",
+      "gold": "tt10-2016:u12",
+      "evidence_chars": 84,
+      "evidence_found_in_gold": true,
+      "evidence_also_in": [],
+      "filter": {
+        "regulation": "quy_che_cong_tac_sinh_vien"
+      },
+      "filter_values_exist": true
+    },
+    {
+      "id": "q20",
+      "split": "test",
+      "type": "dieu_kien_ngoai_le",
+      "gold": "tt16-2015:u09",
+      "evidence_chars": 224,
+      "evidence_found_in_gold": true,
+      "evidence_also_in": [],
+      "filter": null,
+      "filter_values_exist": null
+    }
+  ]
+}

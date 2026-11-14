@@ -1,0 +1,51 @@
+{
+  "run_at_utc": "2026-11-14T04:08:23+00:00",
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+  "packages": {
+    "chromadb": "1.5.9",
+    "onnxruntime": "1.32.0",
+    "tokenizers": "0.23.3",
+    "pypdf": "6.21.4",
+    "numpy": "2.4.6"
+  },
+  "embedding": {
+    "model": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "onnx_sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+    "dimensions": 384,
+    "max_length_tokens": 512,
+    "pooling": "mean + L2",
+    "query_prefix": "query: ",
+    "document_prefix": "passage: ",
+    "provider": "local ONNX Runtime (CPU)",
+    "truncated_inputs": 0
+  },
+  "vector_store": {
+    "engine": "chromadb.PersistentClient",
+    "path": "results/chroma_db",
+    "space": "cosine",
+    "index": "HNSW (approximate)",
+    "collections": {
+      "A": "day06_a_e5small",
+      "B": "day06_b_e5small"
+    }
+  },
+  "benchmark_sha256": "77bb4ad253ae14da8081e931b7493bb9776b16e9da8767f2dc66b31ec06616e2",
+  "timings_s": {
+    "ingest_s": 1.708,
+    "chunk_s": 0.018,
+    "model_load_s": 3.8,
+    "embed_store_A_s": 10.768,
+    "reload_A_s": 0.026,
+    "embed_store_B_s": 13.061,
+    "reload_B_s": 0.028,
+    "query_A_s": 0.317,
+    "query_B_s": 0.307,
+    "query_C_s": 0.321,
+    "total_s": 31.125
+  },
+  "cost_usd": 0.0,
+  "cost_note": "Không gọi API trả phí; chỉ tốn CPU local và ~490 MB tải model một lần."
+}

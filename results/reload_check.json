@@ -1,0 +1,37 @@
+{
+  "note": "Lần 1: sync() embed chunk mới/đổi và xóa chunk không còn tồn tại. Lần 2 (cùng phiên bản) phải có embedded_upserted=0 và after = số chunk.",
+  "sync": {
+    "A": {
+      "first_sync": {
+        "before": 0,
+        "deleted_stale": 0,
+        "embedded_upserted": 222,
+        "unchanged": 0,
+        "after": 222
+      },
+      "reload_same_version": {
+        "before": 222,
+        "deleted_stale": 0,
+        "embedded_upserted": 0,
+        "unchanged": 222,
+        "after": 222
+      }
+    },
+    "B": {
+      "first_sync": {
+        "before": 0,
+        "deleted_stale": 0,
+        "embedded_upserted": 178,
+        "unchanged": 0,
+        "after": 178
+      },
+      "reload_same_version": {
+        "before": 178,
+        "deleted_stale": 0,
+        "embedded_upserted": 0,
+        "unchanged": 178,
+        "after": 178
+      }
+    }
+  }
+}

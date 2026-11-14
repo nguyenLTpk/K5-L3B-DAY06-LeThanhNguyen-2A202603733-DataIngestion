@@ -1,0 +1,19 @@
+{
+  "method": "5 câu test x top-3 x A/B/C = 45 bản ghi (results/audit/metadata_sheet.json). (1) Kiểm tra tự động: đủ trường bắt buộc; text chunk trùng khớp nguyên văn với đơn vị nguồn tại [start_char:end_char] (chứng minh document_id/page/location đúng); regulation/doc_code/issued_year/source khớp manifest. (2) Kiểm tra thủ công: đối chiếu chapter/article với tiêu đề Chương/Điều trong nguồn. Quy ước: article = Điều chứa ký tự đầu của chunk, hoặc Điều đầu tiên nếu chunk mở đầu bằng tiêu đề Chương; articles_covered = mọi Điều chunk chạm tới.",
+  "annotator": "Kiểm tra tự động do script thực hiện; phần thủ công do Claude (trợ lý AI) đối chiếu, học viên rà soát lại.",
+  "result": {
+    "A": {"complete_and_correct": 15, "total": 15, "records_spanning_multiple_articles": 6},
+    "B": {"complete_and_correct": 15, "total": 15, "records_spanning_multiple_articles": 0},
+    "C": {"complete_and_correct": 15, "total": 15, "records_spanning_multiple_articles": 0}
+  },
+  "errors_found": [],
+  "errors_found_and_fixed_during_audit": [
+    "Ở lần chạy đầu, chunk bắt đầu bằng tiêu đề Chương (ví dụ tt10-2016:u20:st01 'Chương VI … Điều 22') bị gán article của Chương trước (Điều 21). Đã sửa: tiêu đề Chương reset Điều hiện tại; chunk không có Điều ở vị trí đầu lấy Điều đầu tiên trong chunk.",
+    "Ở lần chạy đầu, sync() chỉ băm text, nên metadata đã sửa không được ghi lại vào Chroma. Đã sửa: content_sha1 băm cả text + metadata. Hai lỗi này chỉ ảnh hưởng metadata; Hit@1/Hit@3 của A/B/C giống hệt trước và sau khi sửa."
+  ],
+  "usefulness": {
+    "traceability": "document_id + page/location + article cho phép trích dẫn kiểu 'TT 08/2021, trang PDF 16 (trang in 14), Điều 15'. Mọi bản ghi kiểm tra đều truy ngược đúng tới đoạn nguồn.",
+    "filtering": "regulation phân biệt 3 văn bản có khái niệm trùng nhau ('xuất sắc', 'khiển trách', 'Chủ tịch Hội đồng'). Với filter, top-3 tuân thủ phạm vi ở 5/5 câu filter (C), so với 1/5 (B) và 3/5 (A) khi không lọc.",
+    "limitation": "Với A, 6/15 bản ghi trải qua 2-3 Điều nên một nhãn article không đủ để trích dẫn chính xác; chapter chỉ phản ánh vị trí đầu chunk (ví dụ tt08-2021:p16:fix02 ghi Chương III dù phần lớn nội dung thuộc Chương IV). Trường regulation bằng 1-1 với document_id, nên filter theo regulation không giúp lọc trong nội bộ một văn bản."
+  }
+}
